@@ -29,18 +29,18 @@ dependencies {
 
 compose.desktop {
     application {
-        mainClass = "MainKt"
+        mainClass = "AppKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "JSONVisualizer"
-            packageVersion = "1.0.0"
+            packageVersion = "1.0.1"
             // Windows specific options
             windows {
                 // Menu entries for Windows
                 menu = true
                 // Optional: Specify icon for Windows
-//                iconFile.set(project.file("src/main/resources/icons/app-logo.ico"))
+                iconFile.set(project.file("src/main/resources/icons/app-logo.ico"))
                 // MSI package options
                 upgradeUuid = "89758E3B-9B72-4A25-9D6B-6BD0FB550AC2"
             }
