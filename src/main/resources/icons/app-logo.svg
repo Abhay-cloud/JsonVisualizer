@@ -1,0 +1,28 @@
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect x="10" y="10" width="180" height="180" rx="20" ry="20" fill="#1E1E1E" />
+  
+  <!-- JSON Braces -->
+  <path d="M65,50 C55,50 45,60 45,75 L45,90 C45,100 40,105 30,105 L30,105 C40,105 45,110 45,120 L45,135 C45,150 55,160 65,160" 
+        stroke="#007fd4" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <path d="M135,50 C145,50 155,60 155,75 L155,90 C155,100 160,105 170,105 L170,105 C160,105 155,110 155,120 L155,135 C155,150 145,160 135,160" 
+        stroke="#007fd4" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- Simple Tree Structure -->
+  <circle cx="100" cy="70" r="6" fill="#FFFFFF" />
+  <circle cx="80" cy="100" r="6" fill="#FFFFFF" />
+  <circle cx="120" cy="100" r="6" fill="#FFFFFF" />
+  <circle cx="70" cy="130" r="6" fill="#FFFFFF" />
+  <circle cx="90" cy="130" r="6" fill="#FFFFFF" />
+  <circle cx="110" cy="130" r="6" fill="#FFFFFF" />
+  <circle cx="130" cy="130" r="6" fill="#FFFFFF" />
+  
+  <!-- Connection Lines -->
+  <line x1="100" y1="70" x2="80" y2="100" stroke="#FFFFFF" stroke-width="2" />
+  <line x1="100" y1="70" x2="120" y2="100" stroke="#FFFFFF" stroke-width="2" />
+  <line x1="80" y1="100" x2="70" y2="130" stroke="#FFFFFF" stroke-width="2" />
+  <line x1="80" y1="100" x2="90" y2="130" stroke="#FFFFFF" stroke-width="2" />
+  <line x1="120" y1="100" x2="110" y2="130" stroke="#FFFFFF" stroke-width="2" />
+  <line x1="120" y1="100" x2="130" y2="130" stroke="#FFFFFF" stroke-width="2" />
+</svg>
